@@ -3,7 +3,7 @@
 _AAPanel v7.x Lifetime_
 
 # Update
-**v7.0.5**
+**v7.0.6**
 
 `Unlock All Pro Features - All Extension Plugins`
 
@@ -19,6 +19,14 @@ _AAPanel v7.x Lifetime_
 
 
 # Changelog
+
+**v7.0.6**
++ Add Proxy Project in Website (Supported when web service uses Nginx)
++ Add WP Toolkit (Pro version only)
++ Redesigned Docker functionality
++ Fix panel not being accessible in some cases
++ Fix some known issues
+
 **v7.0.5**
 + Optimize the panel login process and login interaction
 + Optimize the time selection for renewing Let's Encrypt Certificate
