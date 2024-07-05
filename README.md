@@ -4,6 +4,11 @@ _AAPanel v7.x Lifetime_
 
 # Update
 **v7.0.6**
+WPToolkit error
+Temporary support
+URL install Wordpress 
+`Link_My_Pannel/v2/site`
+Ex: https://domain.com:2999/v2/site
 
 `Unlock All Pro Features - All Extension Plugins`
 
