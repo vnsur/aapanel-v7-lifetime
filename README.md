@@ -29,6 +29,9 @@ Ex: https://domain.com:2999/v2/site
 
 `sudo bt stop &&sudo update-rc.d -f bt remove &&sudo rm -f /etc/init.d/bt &&sudo rm -rf /www/server/panel`
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=vnsur/aapanel-v7-lifetime&type=Date)](https://star-history.com/#vnsur/aapanel-v7-lifetime&Date)
 
 # Changelog
 
