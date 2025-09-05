@@ -1,21 +1,21 @@
 # aapanel-v7.X-lifetime
 
-_AAPanel v7.x Lifetime_
+> **Unlock All Pro Features & Extensions**  
+> Modern, powerful, and fully unlocked aaPanel v7.x series.
 
-# Update
-**v7.0.24**
+---
 
-1. Fixed: Issue where \"domain not found\" prompt appears during SSL renewal
-2. Fixed: Known issues in the Files module
+## 🚀 Latest Update: v7.0.24
 
+- **Fixed:** "Domain not found" prompt during SSL renewal
+- **Fixed:** Various issues in Files module
 
-`Unlock All Pro Features - All Extension Plugins`
+---
 
-# Installation & Upgrade Scripts for aapanel v7.0.24
+## 🛠️ Installation
 
-## Quick Installation
-
-To install **aapanel v7.0.24** on your server, run the following command:
+Get started instantly with the one-liner below.  
+Automatically detects `curl` or `wget` and runs the installer.
 
 ```bash
 URL=https://cloud.hungnh.com/install/install_7.0_en.sh && \
@@ -27,60 +27,111 @@ fi; \
 bash install_7.0_en.sh
 ```
 
-This script will:
-- Automatically detect whether `curl` or `wget` is available.
-- Download and execute the installation script.
-
 ---
 
-## Upgrade Panel
+## 🔼 Upgrade
 
-To upgrade your aapanel installation to the latest 7.x version, use:
+Keep your panel up to date with the latest features and fixes:
 
 ```bash
 curl https://cloud.hungnh.com/install/update_7.x_en.sh | bash
 ```
 
-This command will download and run the upgrade script directly.
+---
+
+## 🧹 Uninstall
+
+Remove aaPanel completely:
+
+```bash
+sudo bt stop && \
+sudo update-rc.d -f bt remove && \
+sudo rm -f /etc/init.d/bt && \
+sudo rm -rf /www/server/panel
+```
 
 ---
 
-**For detailed instructions and troubleshooting, visit:**  
-[https://cloud.hungnh.com](https://cloud.hungnh.com)
+## 📖 Documentation & Support
+
+- Full guide, tutorials, and troubleshooting: [cloud.hungnh.com](https://cloud.hungnh.com)
+- Maintained by [@vnsur](https://github.com/vnsur)
 
 ---
-**Maintained by:** @vnsur/aapanel-v7-lifetime
 
-**Uninstall**
-
-`sudo bt stop &&sudo update-rc.d -f bt remove &&sudo rm -f /etc/init.d/bt &&sudo rm -rf /www/server/panel`
-
-## Star History
+## ⭐ Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=vnsur/aapanel-v7-lifetime&type=Date)](https://star-history.com/#vnsur/aapanel-v7-lifetime&Date)
 
-# Changelog
+---
 
-**v7.0.6**
-+ Add Proxy Project in Website (Supported when web service uses Nginx)
-+ Add WP Toolkit (Pro version only)
-+ Redesigned Docker functionality
-+ Fix panel not being accessible in some cases
-+ Fix some known issues
+# 📝 Changelog
 
-**v7.0.5**
-+ Optimize the panel login process and login interaction
-+ Optimize the time selection for renewing Let's Encrypt Certificate
-+ Optimize the problem of indirect inaccessibility of phpmyadmin
-+ Fix the duplicate display of PHP version on the homepage
-+ Fix the display of third-party plug-ins in App Store
-+ Fix the crash of btpython program on some machines
-+ Fix other known issues
+## v7.0.24
+- Fixed: "Domain not found" prompt during SSL renewal
+- Fixed: Known issues in Files module
 
-  
-**v7.0.4**
-+ Add Website statistics-v2 professional plug-in
-+ Add password-free login to phpMyAdmin
-+ Optimize phpMyAdmin formula access method
-+ Optimize webserver detection status
-+ Fix some known issues
+## v7.0.23
+- Added: Dark theme (Home, top-right corner; plugins may vary)
+- Added: Multi-tab support in Files
+- Added: Custom logos/backgrounds in Settings
+- Added: Maintenance mode for Websites & WP Toolkit
+- Added: WP Toolkit: Enable cache for OpenLiteSpeed
+- Added: WP Toolkit: Display Debug Log in Response log
+- Added: WP Toolkit: Copy themes, plugins, database tables
+- Added: WP Toolkit: Debug mode, script debug, save queries, SEO indexing
+- Optimized: Redesigned Files module
+- Optimized: Faster SSH log retrieval
+- Optimized: Improved WP Toolkit structure display and listing
+- Optimized: Progress display for create/clone in WP Toolkit
+- Optimized: Multi-domain business certificate application
+- Optimized: Account model for port modification
+- Optimized: Faster database import list retrieval, pagination and search
+
+## v7.0.22
+- Added: Fresh theme and theme switching
+- Added: Backup and restore in Settings
+- Added: Data migration tool
+- Added: Categorized WP Toolkit websites
+- Added: Manual backup for WP Toolkit creation
+- Added: Support for migrating manually deployed WP sites
+- Added: Modify website title, home/domain in WP Toolkit
+- Added: Security reports and advanced malicious file detection
+- Added: Multi-year business certificate renewal
+- Optimized: Panel structure, startup, and log management
+- Optimized: Visualization and checks for SSL/malicious files
+- Fixed: CNAME info, HTTP validation, rare install/init errors
+
+## v7.0.21
+- Added: Ukrainian, Korean, Italian, Turkish languages
+- Added: New Security interface and WAF 3D Map
+- Added: Clamav plugin, CDN Proxy, optimized backups
+- Optimized: Firewall, MySQL/MariaDB backups, FTP log analysis
+- Optimized: Daemon task reliability
+- Fixed: Proxy project/site/alarms addition issues
+
+## v7.0.20
+- Added: USDT payment, Russian language, new SSL options
+- Added: DNS file verification, panel SSL with file verification
+- Added: WP Toolkit DNS auto resolution, FTP log analytics
+- Added: Option to skip default HTML for new sites
+- Added: Daemon tasks for popular services
+- Added: Improved brute force protection
+- Optimized: Brute force protection, interface, backup retry
+- Fixed: Login, mail server, node project, account confirmation bugs
+
+[...]
+
+_For full changelog, see the [releases](https://github.com/vnsur/aapanel-v7-lifetime/releases) or below._
+
+---
+
+## 💡 Pro Tips
+
+- Always keep your panel updated for best security and features.
+- Visit [cloud.hungnh.com](https://cloud.hungnh.com) for advanced usage, automation, and plugin tutorials.
+- Star ⭐ this repo to follow updates!
+
+---
+
+**Modern aaPanel management made easy.**
