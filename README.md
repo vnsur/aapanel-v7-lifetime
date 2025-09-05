@@ -61,7 +61,7 @@ sudo rm -rf /www/server/panel
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=vnsur/aapanel-v7-lifetime&type=Date)](https://star-history.com/#vnsur/aapanel-v7-lifetime&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=vnsur/aapanel-private-v7-x-lifetime&type=Date)](https://www.star-history.com/#vnsur/aapanel-private-v7-x-lifetime&Date)
 
 ---
 
