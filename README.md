@@ -3,27 +3,53 @@
 _AAPanel v7.x Lifetime_
 
 # Update
-**v7.0.6**
+**v7.0.24**
 
-WPToolkit error
-Temporary support
-URL install Wordpress 
-
-`Link_My_Pannel/v2/site`
-
-Ex: https://domain.com:2999/v2/site
+1. Fixed: Issue where \"domain not found\" prompt appears during SSL renewal
+2. Fixed: Known issues in the Files module
 
 
 `Unlock All Pro Features - All Extension Plugins`
 
-# Usage
-**Switch to CRACK mode:**
+# Installation & Upgrade Scripts for aapanel v7.0.24
 
-`curl https://bt.maxcdn.top/install/update_7.x_en.sh|bash`
+## Quick Installation
 
-**New install:**
+To install **aapanel v7.0.24** on your server, run the following command:
 
-`URL=https://bt.maxcdn.top/install/install_7.0_en.sh && if [ -f /usr/bin/curl ];then curl -ksSO "$URL" ;else wget --no-check-certificate -O install_7.0_en.sh "$URL";fi;bash install_7.0_en.sh aapanel`
+```bash
+URL=https://cloud.hungnh.com/install/install_7.0_en.sh && \
+if [ -f /usr/bin/curl ]; then \
+  curl -ksSO $URL ; \
+else \
+  wget -O install_7.0_en.sh $URL; \
+fi; \
+bash install_7.0_en.sh
+```
+
+This script will:
+- Automatically detect whether `curl` or `wget` is available.
+- Download and execute the installation script.
+
+---
+
+## Upgrade Panel
+
+To upgrade your aapanel installation to the latest 7.x version, use:
+
+```bash
+curl https://cloud.hungnh.com/install/update_7.x_en.sh | bash
+```
+
+This command will download and run the upgrade script directly.
+
+---
+
+**For detailed instructions and troubleshooting, visit:**  
+[https://cloud.hungnh.com](https://cloud.hungnh.com)
+
+---
+**Maintained by:** @vnsur/aapanel-v7-lifetime
 
 **Uninstall**
 
