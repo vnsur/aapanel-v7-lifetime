@@ -5,6 +5,11 @@
 
 ---
 
+# Connect Community
+Telegram [https://t.me/aapanelcommunity](https://t.me/aapanelcommunity)
+
+---
+
 ## 🚀 Latest Update: v7.0.24
 
 - **Fixed:** "Domain not found" prompt during SSL renewal
